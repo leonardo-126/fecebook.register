@@ -1,0 +1,118 @@
+body{
+    background-color: #eef5f6;
+}
+*{
+    text-decoration: none;
+    color: #1399ff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+h2{
+    color: black;
+    margin: 5px;
+}
+p{
+    font-size: 13px;
+    color: rgb(121, 114, 114);
+    margin: 5px;
+}
+/*header*/
+header{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+img{
+    width: 300px;
+    height: 150px;
+}
+
+/*section*/
+
+.container{
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#incio{
+    text-align: center;
+
+
+}
+#nome{
+    width: 39%;
+    
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+}
+.espaco{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#sobre{
+    width: 39%;
+}
+input{
+    padding: 13px;
+    color: rgb(121, 114, 114);
+    border: solid 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+    max-width: 100%;
+    display: inline-block;
+    outline: none;
+    
+}
+.cadastro{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(11, 160, 11);
+    padding: 7px;
+    text-align: center;
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+.jatem{
+    text-align: center;
+    font-size: 12px;
+}
+    /*generos*/
+.mf{
+    color: black;
+    border: solid 1px;
+    width: 30%;
+    padding: 3px;
+    border-radius: 5px;
+    border-color: darkgray;
+    display: inline-block;
+}
+/*DATA DE NASCIMENTO*/
+#data{
+    width: 30%;
+    color: black;
+    padding: 3px;
+    margin-left: 5px;
+}
+.fim{
+    text-align: center;
+}
+.dp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
